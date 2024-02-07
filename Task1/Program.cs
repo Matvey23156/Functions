@@ -13,17 +13,6 @@ bool IsPrime(int number)
     }
     return true;
 }
-// 
-// Random rnd = new Random();
-// int size = 6;
-// int[] arr_int = new int[size];
-// int i = 0;
-// while (i < size)
-// {
-//     arr_int[i] = rnd.Next(1, 100);
-//     System.Console.Write($"{arr_int[i]} ");
-//     i++;
-// }
 
 // функция для записи размера массива с клавиатуры
 int[] GetArrayFromConsole()
@@ -40,7 +29,6 @@ int[] GetArrayFromConsole()
     }
     return array;
 }
-
 
 // функция для создания массива
 int[] GetRandomArray(int size, int minValue, int maxValue)
@@ -63,10 +51,6 @@ void PrintArray(int[] array)
     }
     System.Console.WriteLine("]");
 }
-
-
-
-
 
 int CountPrimeNumbers(int[] array)
 {
